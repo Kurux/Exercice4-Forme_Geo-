@@ -20,6 +20,10 @@ Figure::Figure(const Figure& inFigure)
 	y = inFigure.y;
 	estSelectionne = inFigure.estSelectionne;
 }
+Figure::~Figure()
+{
+
+}
 
 int Figure::getX() const
 {
@@ -72,7 +76,7 @@ void Figure::setCote(int inCote)
 {
 
 }
-float Figure::CalculerPerimetre() const
+/*float Figure::CalculerPerimetre() const
 {
 	return 0;
 }
@@ -80,4 +84,8 @@ float Figure::CalculerAire() const
 {
 	return 0;
 }
+void Figure::Selectionner(int inX, int inY)
+{
+
+}*/
 
